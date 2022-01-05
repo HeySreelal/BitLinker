@@ -1,0 +1,19 @@
+{
+  "name": "bitlinker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "debug": "tsc && node bin/main",
+    "run": "node bin/main"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "dotenv": "^10.0.0",
+    "node-telegram-bot-api": "^0.56.0",
+    "request": "^2.88.2"
+  }
+}
