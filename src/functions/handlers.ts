@@ -6,7 +6,7 @@ import { showTyping } from "./helpers";
 export const startHandler = async (msg: TelegramBot.Message) => {
     const id = msg.chat.id;
     await showTyping(id);
-    await bot.sendMessage(id, "Welcome to BitLinker! 🔗\n\nI can help you shorten your URLs with domain bit.ly. 🚀");
+    await bot.sendMessage(id, `Hey ${msg.from.first_name}, welcome to BitLinker! 🔗\n\nI can help you shorten your URLs with domain bit.ly. 🚀`);
     return bot.sendMessage(id, "Send me a link now 😎");
 }
 
